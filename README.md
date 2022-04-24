@@ -11,6 +11,7 @@ Folder **nodejs**:
 Folder **cpp**:
 - `<bits/stdc++.h>` is required
 - `g++ --std=gnu++17 socket.cpp -o socket.exe`
+- `./socket.exe`
 
 NodeJS receives http request and sends data to a socket in C++ part. All calculations are performed in C++, then the socket delivers the results back to NodeJS server which sends them in response to the initial request. 
 
