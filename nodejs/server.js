@@ -10,7 +10,7 @@ app.post('/', async (req, res) => {
     console.log(req.body);
     await new Promise((r) => setTimeout(r, 300));
     const t = req.body;
-    let forSock = `${t.vehicle}\n`;
+    let forSock = `${t.vehicle.toUpperCase()}\n`;
     for (let j = 0; j <= t.dates.length-1; j++) {
         forSock += `${t.dates[j]}\n`;
     }
