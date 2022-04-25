@@ -9,7 +9,6 @@ Folder **nodejs**:
 - `node server.js`
 
 Folder **cpp**:
-- `<bits/stdc++.h>` is required
 - `g++ --std=gnu++17 socket.cpp -o socket.exe`
 - `./socket.exe`
 
